@@ -1,6 +1,7 @@
 {
-  "name": "siscme-front",
+  "name": "projeto-base",
   "private": true,
+  "homepage": "https://jonmferreira.github.io/projeto-web-base",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +12,9 @@
     "build-image-docker": "docker build -t frontend .",
     "run-image-docker": "docker run -d --rm -p 8081:8081 --name frontend frontend",
     "test": "jest",
-    "testv": "vitest"
+    "testv": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "engines": {
     "node": "18.16.0",
