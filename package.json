@@ -1,7 +1,7 @@
 {
   "name": "projeto-base",
   "private": true,
-  "homepage": "https://jonmferreira.github.io/projeto-web-base",
+  "homepage": "https://jonmferreira.github.io/projeto-web-base/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
