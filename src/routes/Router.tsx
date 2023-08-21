@@ -1,4 +1,4 @@
-11111111111import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Login } from "@pages/general/Login";
 import { RoutersPathName } from "@/routes/schemas.ts";
 
