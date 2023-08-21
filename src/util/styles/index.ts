@@ -1,7 +1,7 @@
 import "./style.css"
 
-export const logoUEA = "src/assets/logo/logoUEA.svg";
-export const logoEST = "src/assets/logo/logoEST.png";
+export const logoUEA = "/logoUEA.svg";
+export const logoEST = "/logoEST.png";
 
 export const styleFlexRow = `
 flex

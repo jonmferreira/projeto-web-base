@@ -17,7 +17,7 @@ const configVite = defineVite({
             excludeExports: ['mapStateToProps', 'mapDispatchToProps']
         })
     ],
-    base: "/projeto-web-base/",
+    base: "/",
     worker: {
         plugins: [react()],
     },
