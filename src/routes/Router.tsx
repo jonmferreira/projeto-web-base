@@ -6,11 +6,11 @@ export function Router() {
     return (
         <Routes>
             <Route
-                path={"/projeto-web-base"}
+                path={"/projeto-web-base*"}
                 element={<Login />}
             />
             <Route
-                path={"/"}
+                path={"/*"}
                 element={<Login />}
             />
             <Route
