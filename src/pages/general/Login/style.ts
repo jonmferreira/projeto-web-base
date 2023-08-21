@@ -18,7 +18,7 @@ export const styleImg = `
     sm:h-10rem 
     md:h-10rem 
     lg:h-10rem 
-        xl:h-10rem 
+    xl:h-10rem 
     h-10rem 
     p-2`
 export const styleForm = `
